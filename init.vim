@@ -16,11 +16,16 @@ call plug#end()
 autocmd vimenter * nested colorscheme gruvbox
 " ctrl+b开关浏览窗口
 map <C-b> :NERDTreeToggle<CR>
+imap <C-q> <Esc>
 nmap <C-h> ^
 nmap <C-l> $
 nmap fw :w<CR>
 nmap fq :q<CR>
 nmap fwq :wq<CR>
+nnoremap tn :tabnew<CR>
+nnoremap tk :tabprev<CR>
+nnoremap tj :tabnext<CR>
+nnoremap tc :tabclose<CR>
 
 set number " 显示行号d
 
