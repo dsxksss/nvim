@@ -28,7 +28,7 @@ nnoremap tj :tabnext<CR>
 nnoremap tc :tabclose<CR>
 
 set number " 显示行号d
-set timeoutlen=800 " 映射输入延迟时间
+set timeoutlen=100 " 映射输入延迟时间
 
 let g:indent_guides_guide_size = 1 " 指定对齐线的尺寸
 
