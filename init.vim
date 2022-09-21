@@ -15,20 +15,19 @@ call plug#end()
 " 启用主题
 autocmd vimenter * nested colorscheme gruvbox
 " ctrl+b开关浏览窗口
-map <C-b> :NERDTreeToggle<CR>
+map <Space>b :NERDTreeToggle<CR>
 inoremap <Space>n <Esc>
 nmap <C-h> ^
 nmap <C-l> $
 nmap fw :w<CR>
 nmap fq :q<CR>
-nmap fwq :wq<CR>
 nnoremap tn :tabnew<CR>
 nnoremap tk :tabprev<CR>
 nnoremap tj :tabnext<CR>
 nnoremap tc :tabclose<CR>
 
 set number " 显示行号d
-set timeoutlen=100 " 映射输入延迟时间
+set timeoutlen=300 " 映射输入延迟时间
 
 let g:indent_guides_guide_size = 1 " 指定对齐线的尺寸
 
