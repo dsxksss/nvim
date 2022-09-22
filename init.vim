@@ -17,8 +17,8 @@ autocmd vimenter * nested colorscheme gruvbox
 " ctrl+b开关浏览窗口
 map <Space>b :NERDTreeToggle<CR>
 inoremap <Space>n <Esc>
-nmap <C-h> ^
-nmap <C-l> $
+nmap <Space>h ^
+nmap <Space>l $
 nmap fw :w<CR>
 nmap fq :q<CR>
 nnoremap tn :tabnew<CR>
