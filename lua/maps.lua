@@ -1,5 +1,6 @@
 -- 设置leader快捷键为空格键
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 local keymap = vim.keymap
 
@@ -12,6 +13,8 @@ keymap.set("n","<C-a>","gg<S-v>G")
 
 -- 新开一个窗口
 keymap.set("n","<leader>ss",":vsplit<Return><C-w>w",{silent = true})
+keymap.set("n", "sv", ":vsp<CR>", {silent = true})
+keymap.set("n", "sh", ":sp<CR>", {silent = true})
 
 -- 聚焦不同窗口
 -- f键切换聚焦
