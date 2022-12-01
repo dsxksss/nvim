@@ -7,6 +7,6 @@ require("maps")
 -- 主题设置
 require("colors")
 
--- 主题设置
+-- 插件设置
 require("plugins")
 
